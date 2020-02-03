@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import './global.css'
 import './App.css'
 import './Sidebar.css'
+import './Main.css'
 
 function App() {
 
@@ -33,7 +34,52 @@ function App() {
                 </form>
             </aside>
             <main>
-
+                <ul>
+                    <li className="dev-item">
+                        <header>
+                            <img src="https://avatars2.githubusercontent.com/u/19477838?s=460&v=4" alt="Bárbara Carrijo"/>
+                            <div className="user-info">
+                                <strong>Bárbara Carrijo</strong>
+                                <span>Ruby, Rails, React</span>
+                            </div>
+                        </header>
+                        <p>Ruby on Rails developer at @Siedos - JavaScript, Java and C# enthusiast - Internet Systems Technology Student</p>
+                        <a href="https://github.com/BarbarahCarrijo">Acessar perfil no github</a>
+                    </li>
+                    <li className="dev-item">
+                        <header>
+                            <img src="https://avatars2.githubusercontent.com/u/19477838?s=460&v=4" alt="Bárbara Carrijo"/>
+                            <div className="user-info">
+                                <strong>Bárbara Carrijo</strong>
+                                <span>Ruby, Rails, React</span>
+                            </div>
+                        </header>
+                        <p>Ruby on Rails developer at @Siedos - JavaScript, Java and C# enthusiast - Internet Systems Technology Student</p>
+                        <a href="https://github.com/BarbarahCarrijo">Acessar perfil no github</a>
+                    </li>
+                    <li className="dev-item">
+                        <header>
+                            <img src="https://avatars2.githubusercontent.com/u/19477838?s=460&v=4" alt="Bárbara Carrijo"/>
+                            <div className="user-info">
+                                <strong>Bárbara Carrijo</strong>
+                                <span>Ruby, Rails, React</span>
+                            </div>
+                        </header>
+                        <p>Ruby on Rails developer at @Siedos - JavaScript, Java and C# enthusiast - Internet Systems Technology Student</p>
+                        <a href="https://github.com/BarbarahCarrijo">Acessar perfil no github</a>
+                    </li>
+                    <li className="dev-item">
+                        <header>
+                            <img src="https://avatars2.githubusercontent.com/u/19477838?s=460&v=4" alt="Bárbara Carrijo"/>
+                            <div className="user-info">
+                                <strong>Bárbara Carrijo</strong>
+                                <span>Ruby, Rails, React</span>
+                            </div>
+                        </header>
+                        <p>Ruby on Rails developer at @Siedos - JavaScript, Java and C# enthusiast - Internet Systems Technology Student</p>
+                        <a href="https://github.com/BarbarahCarrijo">Acessar perfil no github</a>
+                    </li>
+                </ul>
             </main>
         </div>
     );
