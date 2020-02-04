@@ -1,4 +1,4 @@
-main{
+main {
     flex: 1;
 }
 
@@ -7,6 +7,12 @@ main ul {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     list-style: none;
+}
+
+@media (max-width: 650px) {
+    main ul {
+        grid-template-columns: 1fr;
+    }
 }
 
 li.dev-item {
@@ -44,4 +50,21 @@ li.dev-item header .user-info {
     font-size: 13px;
     color: #999;
     margin-top: 2px;
+}
+
+.user-info p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.user-info a {
+    color: #8e4dff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.user-info a:hover {
+    color: #5a2ea6;
 }
